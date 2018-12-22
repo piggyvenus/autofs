@@ -27,7 +27,7 @@ COPY dbus.service /usr/lib/systemd/system/dbus.service
 VOLUME ["/sys/fs/cgroup"]
 VOLUME ["/run"]
 
-CMD  ["/usr/lib/systemd/systemd"]
+#CMD  ["/usr/lib/systemd/systemd"]
 
 # Make mount point
 #RUN mkdir /home
